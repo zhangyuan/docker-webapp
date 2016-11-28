@@ -1,0 +1,10 @@
+*.swp
+
+app/jars/*
+nginx/log/*
+nginx/html/*
+
+!app/jars/.gitkeep
+!nginx/log/.gitkeep
+!nginx/html/.gitkeep
+
