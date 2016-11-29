@@ -7,7 +7,7 @@ services:
       - "9999:9999"
     volumes:
       - ./app/jars:/var/jars
-    command: java -jar /var/jars/`ls /var/jars/ | head -1` -Dserver.port=9999
+    command: java -jar /var/jars/app.jar -Dserver.port=9999
     networks:
       - docker_webapp
   nginx: 
